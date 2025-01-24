@@ -1,0 +1,5 @@
+providers = ["...", "python"]
+[phases.build]
+cmds = ["echo building!"]
+[start]
+cmd = "python3 app.py"
